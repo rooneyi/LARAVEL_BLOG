@@ -8,91 +8,36 @@
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#111418] tracking-light text-[32px] font-bold leading-tight min-w-72">Latest Posts</p></div>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-              <div class="flex flex-col gap-3 pb-3">
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4lnuaxysiyQEUXhqDFMD0ltSaShx3VoXrWQ-rhfy84CqOvZ_jh0TDfL7VTMAZ1CforCLfoQXEN92sxyHwQGfEX_b0VgAQ0sdaVG5zSS_IFJ3Mpgd5pg5F0ip7K_RsIgXd2Ae0ttlluzcT32cm30mFTs0eo1HJPdeW0rLe0_5_RG8OMBpGLksKHFHkk7-pkHdPAY0MIswiDmjtdiBTwRLnQYO2hHJD-FlJBRzKYuM8v-BGkyIG74RdKRCMRe2NfmDPknb5PC19Vpc");'
-                ></div>
-                <div>
-                  <p class="text-[#111418] text-base font-medium leading-normal">The Art of Mindful Living</p>
-                  <p class="text-[#60758a] text-sm font-normal leading-normal">Discover how to cultivate mindfulness in your daily life for enhanced well-being.</p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-3 pb-3">
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbo_MyrB81-2hl8IQIMiqW80PkZ5t7hoedzqpcMd17wzdtH0BgirbY9u7r11etLqt0QYcD_isEYgyvbolazc291Tyl5wfLkOsIXg7dqKEpXYmR_7BWbXMq3CxMkbU6DmDonEvnSrz1oPpY_aAGoKODNsMybePaaYaHAasmJ7JFwDmkDzHWQkDzJXbGmXdszOU1DxQABxN84b-x-N9C7DOHgJ5NyNGuGGwAcHV6mUqZVZ5w_cAQ4YharGwu1mDsWxvDWPa36tpSv7Y");'
-                ></div>
-                <div>
-                  <p class="text-[#111418] text-base font-medium leading-normal">Exploring the Hidden Gems of the Pacific Northwest</p>
-                  <p class="text-[#60758a] text-sm font-normal leading-normal">Uncover the breathtaking landscapes and unique experiences of the Pacific Northwest.</p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-3 pb-3">
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTneYuOT2zU3tbZz4bvMnMpfCVgQR0DbyhOngIeM36Qy0v0PE5zpRQRDwjkoHNRsidKQt51tGrS5P0xyj-ccVYgmdkY2UtA0VYMmb5nMn8eIeXzROEsmzyZ-L1egxTzvSU_92fvSMpi0P0lGBkjTemeBGMq75ySNT-eduBBE9BoPVvcdo4KMwJfRwxnUnAypqlAHJ0I3X-FTm-NxgcxV1kE7nHGU2F2QbHKwYLpbJLdVpCLd6Oow2U4e6dQ7qp1WyvL3m4gQTOD68");'
-                ></div>
-                <div>
-                  <p class="text-[#111418] text-base font-medium leading-normal">Mastering the Perfect Cup of Coffee</p>
-                  <p class="text-[#60758a] text-sm font-normal leading-normal">Learn the secrets to brewing a delicious and aromatic cup of coffee at home.</p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-3 pb-3">
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbsd40aLQB71n0YxmeHiqcc1GmpfIdD3MtJg0Vi1kyAK2bYGVi4dNIY1X5AXRy003g1iPZOGuh1pArnyB5zmQvvWteb29M90w3nMbfVu3sH3xftIn8Any_HGzWqGZQBdyk0JwSbUBA9Rdr4MiwIsYURpdv2Cm4odshseQh8AsWQGt_mkD_mWdIIMxyDhOFliOKD-gEXNr-mF9C6bm_qqPUbtXUjdLyyUMKdJ2PBNN4UZ8GMlviz9hnqTqu5DCmSoMA1tKQQDOFhj0");'
-                ></div>
-                <div>
-                  <p class="text-[#111418] text-base font-medium leading-normal">A Guide to Sustainable Fashion</p>
-                  <p class="text-[#60758a] text-sm font-normal leading-normal">Embrace eco-friendly fashion choices with our comprehensive guide to sustainable clothing.</p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-3 pb-3">
-                <div
-                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDy659yDH-R1JzxYZ6zNNrrHstNcH_87FEhWX-SARoX7lIW44Li21Pwv1Jupca93sZ7rg4BZVFmdg9d4XQfknq3IovDHkS35AwzBdsSxYpYliutZNO8vzkmU7cVEUEm_gzUWu9wqJkaCdkujAlfzXWt30FRgeBqdUlGVmqVDgAWRPm01tuvz1J8BZxo1fwcKRWKEf5cuoeycjjIrYg1x5uZwMm8NYcpZ-7_Z0N2MdhBi-nojvq9c8pcBhoI4LAp82nzPH47d7CCzOI");'
-                ></div>
-                <div>
-                  <p class="text-[#111418] text-base font-medium leading-normal">The Power of Positive Thinking</p>
-                  <p class="text-[#60758a] text-sm font-normal leading-normal">Transform your mindset and unlock your potential with the power of positive thinking.</p>
-                </div>
-              </div>
+                  @foreach($posts as $post)
+                            <div class="flex flex-col gap-2">
+                          <div
+                              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbo_MyrB81-2hl8IQIMiqW80PkZ5t7hoedzqpcMd17wzdtH0BgirbY9u7r11etLqt0QYcD_isEYgyvbolazc291Tyl5wfLkOsIXg7dqKEpXYmR_7BWbXMq3CxMkbU6DmDonEvnSrz1oPpY_aAGoKODNsMybePaaYaHAasmJ7JFwDmkDzHWQkDzJXbGmXdszOU1DxQABxN84b-x-N9C7DOHgJ5NyNGuGGwAcHV6mUqZVZ5w_cAQ4YharGwu1mDsWxvDWPa36tpSv7Y");'
+                          >
+                          </div>
+                          <div>
+                              <p class="text-[#111418] text-base font-medium leading-normal">{{$post->title}}</p>
+                              <p class="text-[#60758a] text-sm font-normal leading-normal">{{ Str::limit($post->content, 50, '...') }}</p>
+                          </div>
+                            </div>
+                  @endforeach
             </div>
             <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Popular Posts</h2>
             <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
               <div class="flex items-stretch p-4 gap-3">
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAp-gv6vyw84TVdqxksS648lBKLtL8Ns0Gu5b0zipj3AphJQ5Nb5Sel4OYZjEmA6abbhSyJ4GMD3dVskLh3sqkudg3WKMIj9LDqN7Fvaw_aCPuagNkl7Wd1ptkS_2PSfXlTloiQZXPZF7j_kFkdfypuO_21Z24i8IYxbsHk311H1s8K9KSAghkuqwZiH0beA5eJCsbgK5ONNKod1n1uszKFtwmWzUZGknqxMKBtqx4GPgnL9lLzfSLjhD3F9qt7hP0Fgqxn5FIBIdM");'
-                  ></div>
-                  <div>
-                    <p class="text-[#111418] text-base font-medium leading-normal">Top 5 Hiking Trails in the Rockies</p>
-                    <p class="text-[#60758a] text-sm font-normal leading-normal">Explore the most scenic and challenging hiking trails in the Rocky Mountains.</p>
-                  </div>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAGn9tma72zJat9jau75eOAq7ROpqYeR7h7L27RHPI4qgOMOJz-zxuD3NxZhNQJ9BpDHKK2rxQke8klsQ13DbB8otf6WpkIur3pt20z0EbQqZ6s3Kg6zoDgVTpPBgnX7kSS0hxG4rbERg1GFwZ8yxf3PGPAeT2OJOTeXy8_Cv2VjiNtIgn8b9NCuyXwF_GH6JBXJLMJ8N6lO98p7HzwghxbudVkKWRzLKz2i-IOO8B_02wWkhk8xvnuyGxMrOwBgRk-RlBoMIvwHoQ");'
-                  ></div>
-                  <div>
-                    <p class="text-[#111418] text-base font-medium leading-normal">Urban Photography Tips for Beginners</p>
-                    <p class="text-[#60758a] text-sm font-normal leading-normal">Capture the beauty of city life with these essential photography tips.</p>
-                  </div>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDcMPORGnhrb1m4koENTLrFG1lX25Gh6_4uSIs0rxuEWe305wfoNquXkh6SOq2PLOpoXYpVa4FbHoCCfgMqheXPYC_1Ecve-eYBo6E3Ba9R7H16Mdm5MSiaRrcDw8PPWWU7crNunGOr6yADqAXVGo7SIP-Yg3NW7FM-1Zk9tR59WsygCeBypwDm0V4hOkube5xYhrhRI50qR0MlIBFPL0BgxLmh6mvYsDmKeTrKr1w6N9ZpPA-YzV62DeThQjp5TgRIJ4cI68g6SjM");'
-                  ></div>
-                  <div>
-                    <p class="text-[#111418] text-base font-medium leading-normal">Best Beaches for a Relaxing Getaway</p>
-                    <p class="text-[#60758a] text-sm font-normal leading-normal">Discover the most serene and beautiful beaches around the world.</p>
-                  </div>
-                </div>
-              </div>
+                  @foreach($post_recents as $post_recent)
+                    <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                      <div
+                        class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAp-gv6vyw84TVdqxksS648lBKLtL8Ns0Gu5b0zipj3AphJQ5Nb5Sel4OYZjEmA6abbhSyJ4GMD3dVskLh3sqkudg3WKMIj9LDqN7Fvaw_aCPuagNkl7Wd1ptkS_2PSfXlTloiQZXPZF7j_kFkdfypuO_21Z24i8IYxbsHk311H1s8K9KSAghkuqwZiH0beA5eJCsbgK5ONNKod1n1uszKFtwmWzUZGknqxMKBtqx4GPgnL9lLzfSLjhD3F9qt7hP0Fgqxn5FIBIdM");'
+                      ></div>
+                      <div>
+                        <p class="text-[#111418] text-base font-medium leading-normal">{{ $post_recent->title }}</p>
+                        <p class="text-[#60758a] text-sm font-normal leading-normal">{{ Str::limit($post_recent->content,80,'...') }}.</p>
+                      </div>
+                    </div>
+                      @endforeach
+            </div>
             </div>
             <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Categories</h2>
             <div class="flex gap-3 p-3 flex-wrap pr-4">

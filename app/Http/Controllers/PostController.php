@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Post;
+use App\Models\Posts;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
     public function index(){
         //Fetch all posts from the database
-        $posts =  Post::all();
+        $posts =  Posts::all();
         return view('posts.index', compact('posts'));
     }
 
@@ -24,7 +24,7 @@ class PostController extends Controller
         ]);
 
         // Create a new post
-        Post::create($data);
+        Posts::create($data);
 
         // Redirect to the posts index page with a success message
         return redirect()->route('posts.index')->with('success', 'Post created successfully!');
