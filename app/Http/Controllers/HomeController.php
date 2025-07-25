@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Post;
+
 class HomeController extends Controller
 {
     public function index(){
-        return view('home');
+        // This method will return the home view
+
+        //Fetch all posts from the database
+        $posts =  Post::all();
+        return view('home',compact('posts'));
     }
 }

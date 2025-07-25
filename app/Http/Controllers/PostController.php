@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function index(){
-        return view('posts.index');
+        //Fetch all posts from the database
+        $posts =  Post::all();
+        return view('posts.index', compact('posts'));
     }
 
     public function create(){
